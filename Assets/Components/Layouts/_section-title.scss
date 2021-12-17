@@ -1,0 +1,13 @@
+.section-title {
+  h4 {
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: 700;
+    color: $white-heading;
+  }
+  p {
+    color: $white-heading;
+    font-size: 18px;
+    margin-top: 15px;
+  }
+}

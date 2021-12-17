@@ -1,0 +1,76 @@
+a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/* Button Properties */
+.bttn {
+  display: inline-block;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 500;
+  color: $white-heading;
+  width: 152px;
+  text-align: center;
+  transition: .3s;
+  &.bttn-primary {
+    background-color: $btn-primary;
+    padding: 15px 18px;
+    &:hover {
+      background-color: $btn-hover;
+      color: $white-heading;
+    }
+  }
+  &.bttn-border {
+    border: 2px solid $white-heading;
+    padding: 13px 18px;
+    &:hover {
+      background-color: $btn-hover;
+      color: $white-heading;
+      border: 2px solid $btn-hover;
+    }
+  }
+}
+
+/* background image property */
+.bg {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  &::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: $bg-overlay;
+    opacity: .80;
+    z-index: -1;
+  }
+}
+
+/* padding and margin properties */
+@for $i from 1 through 10 {
+  .pt-#{$i * 10} {
+    padding-top: $i * 10px;
+  }
+  .pb-#{$i * 10} {
+    padding-bottom: $i * 10px;
+  }
+  .mt-#{$i * 10} {
+    margin-top: $i * 10px;
+  }
+  .mb-#{$i * 10} {
+    margin-bottom: $i * 10px;
+  }
+}

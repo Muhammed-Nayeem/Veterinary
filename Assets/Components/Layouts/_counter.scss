@@ -1,0 +1,24 @@
+.counter-area {
+  padding: 180px 0;
+  .single-counter {
+    text-align: center;
+    i {
+      font-size: 80px;
+      color: $white-heading;
+      margin-bottom: 25px;
+    }
+    p {
+      font-size: 30px;
+      font-weight: 500;
+      color: $white-heading;
+      span {
+        font-weight: 600;
+      }
+    }
+    h4 {
+      text-transform: capitalize;
+      font-size: 25px;
+      color: $white-heading;
+    }
+  }
+}

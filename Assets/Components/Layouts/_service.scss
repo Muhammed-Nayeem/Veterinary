@@ -1,0 +1,27 @@
+.services-area {
+  background-color: $primary-color;
+  .single-services {
+    text-align: center;
+    .service-image {
+      background-color: $white-heading;
+      img {
+        width: 100%;
+        padding: 6px;
+      }
+    }
+    .service-text {
+      margin: 15px 0;
+      padding: 15px 20px;
+      h4 {
+        text-transform: capitalize;
+        color: $white-heading;
+        font-size: 30px;
+        font-weight: 700;
+      }
+      p {
+        color: $white-heading;
+        font-size: 18px;
+      }
+    }
+  }
+}

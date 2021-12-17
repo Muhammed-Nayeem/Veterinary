@@ -1,0 +1,30 @@
+.banner-area {
+  background-color: $primary-color;
+  .banner-content {
+    h2 {
+      text-transform: capitalize;
+      font-size: 60px;
+      font-weight: 700;
+      color: $white-heading;
+      line-height: 75px;
+    }
+    p {
+      font-size: 20px;
+      font-weight: 600;
+      color: $white-heading;
+      line-height: 30px;
+      margin: 15px 0 20px 0;
+    }
+    .bttn {
+      @include border-radius(3px);
+    }
+    a {
+      margin: 0 25px 0 0;
+    }
+  }
+  .banner-image {
+    img {
+      width: 100%;
+    }
+  }
+}

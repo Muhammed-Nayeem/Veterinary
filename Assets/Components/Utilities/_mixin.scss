@@ -1,0 +1,76 @@
+/* Button Maker Mixin */
+@mixin border-radius ($bd-radius) {
+  border-radius: $bd-radius;
+}
+
+/* Section Maker Mixin */
+@mixin section($className) {
+  .#{$className} {
+    .about-content {
+      h4 {
+        text-transform: capitalize;
+        font-size: 55px;
+        font-weight: 700;
+        color: $black-heading;
+        line-height: 65px;
+      }
+      p {
+        font-size: 20px;
+        margin: 15px 0 25px 0;
+        color: $gray-subheading;
+      }
+      .bttn {
+        @include border-radius(3px);
+      }
+      .bttn-primary {
+        background-color: $btn-warning;
+        transition: 0.3s;
+        &:hover {
+          background-color: $btn-hover;
+        }
+      }
+    }
+    .about-image {
+      position: relative;
+      &::before {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: $bg-overlay;
+        opacity: 0.6;
+      }
+      img {
+        width: 100%;
+      }
+      .about-text {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        a {
+          display: inline-block;
+          color: $white-heading;
+          transition: 0.3s;
+          &:hover {
+            color: $btn-hover;
+          }
+          i {
+            font-size: 80px;
+          }
+        }
+      }
+      .about-shape {
+        background-color: $primary-color;
+        width: 200px;
+        height: 180px;
+        top: 68%;
+        left: -22px;
+        position: absolute;
+        z-index: -1;
+      }
+    }
+  }
+}

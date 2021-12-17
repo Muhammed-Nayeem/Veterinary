@@ -1,0 +1,60 @@
+.team-area {
+  .section-title {
+    h4 {
+      color: $black-heading;
+    }
+    p {
+      color: $gray-subheading;
+    }
+  }
+  .single-team {
+    .single-image {
+      img {
+        width: 100%;
+      }
+    }
+    .team-text {
+      text-align: center;
+      margin-top: 25px;
+      h4 {
+        text-transform: capitalize;
+        font-size: 24px;
+        font-weight: 600;
+        color: $black-heading;
+        line-height: 30px;
+        span {
+          display: block;
+          text-transform: lowercase;
+          font-size: 18px;
+          font-weight: 500;
+          color: $gray-subheading;
+        }
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+        li {
+          display: inline-block;
+          a {
+            display: block;
+            color: $link-color;
+            margin: 0 5px;
+            transition: 0.3s;
+            &:hover {
+              color: $link-hover;
+            }
+            i {
+              font-size: 12px;
+              background-color: $icon-bg;
+              height: 25px;
+              width: 25px;
+              line-height: 25px;
+              border-radius: 50%;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}
