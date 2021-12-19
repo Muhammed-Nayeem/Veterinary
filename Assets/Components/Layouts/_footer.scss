@@ -1,8 +1,10 @@
 .footer-area {
-  background-color: $black-heading;
+  background-color: $bg-footer;
+  top: 83px;
+  position: relative;
   .single-footer {
     h4 {
-      color: $white-heading;
+      color: $green;
       text-transform: capitalize;
       font-size: 30px;
       font-weight: 600;
@@ -11,7 +13,7 @@
     }
     p {
       font-size: 18px;
-      color: white;
+      color: $white;
       margin-top: -10px;
     }
     .item-list {
@@ -24,12 +26,12 @@
           display: inline-block;
           text-transform: capitalize;
           font-size: 18px;
-          font-weight: 500;
-          color: $white-heading;
+          font-weight: 400;
+          color: $link-color;
           transition: 0.3s;
           &:hover {
             transform: translateX(8px);
-            color: $btn-warning;
+            color: $green;
           }
         }
       }
@@ -39,23 +41,23 @@
       input[type="email"] {
         outline: none;
         border: 0;
-        background-color: $bg-overlay;
-        color: $white-heading;
+        background-color: $green;
+        color: $white;
         padding: 12px 8px;
         &::placeholder {
-          color: $white-heading;
+          color: $white;
         }
       }
       .submit-btn {
         margin-left: -5px;
         border: 0;
         padding: 12px 20px;
-        background-color: $btn-primary;
-        color: $link-color;
+        background-color: $btn-blue;
+        color: $btn-color-white;
         transition: 0.3s;
         &:hover {
-          background-color: $white-heading;
-          color: $btn-primary;
+          background-color: $white;
+          color: $btn-color-blue;
         }
         i {
           font-size: 18px;
@@ -70,21 +72,30 @@
           display: inline-block;
           a {
             display: block;
-            color: $link-hover;
             margin: 0 0 0 10px;
             i {
-              font-size: 18px;
+              font-size: 16px;
               font-weight: 600;
-              background-color: #ffffff;
+              color: $icon-color-white;
+              background-color: $icon-bg-blue;
               width: 35px;
               height: 35px;
               text-align: center;
               line-height: 35px;
               border-radius: 50%;
+              transition: .3s;
+              &:hover {
+                color: $icon-color-blue;
+                background-color: $icon-color-white;
+              }
             }
           }
         }
       }
     }
+  }
+  .copy-text {
+    color: $white;
+    font-size: 18px;
   }
 }

@@ -1,0 +1,67 @@
+.contact-area {
+  background-color: $primary-color;
+  top: 83px;
+  position: relative;
+  .contact-form {
+    h4 {
+      text-transform: capitalize;
+      font-size: 18px;
+      color: $green;
+      margin-top: 8px;
+    }
+    form {
+      input,
+      textarea {
+        width: 100%;
+        outline: none;
+        border: 1px solid $green-border;
+        padding: 10px;
+        margin-bottom: 15px;
+        color: $black;
+      }
+      input[type="submit"] {
+        background-color: $btn-green;
+        color: $btn-color-white;
+        padding: 8px;
+        text-transform: capitalize;
+        transition: 0.3s;
+        &:hover {
+          background-color: $btn-bg-hover;
+          border: 1px solid $black-border;
+        }
+      }
+    }
+  }
+  .contact-address {
+    padding: 30px 15px;
+    .single-contact {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      margin-bottom: 24px;
+      i {
+        background-color: $icon-bg-green;
+        color: $icon-color-white;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        font-size: 15px;
+        @include border-radius(3px);
+        margin-right: 15px;
+      }
+      h4 {
+        text-transform: capitalize;
+        font-size: 18px;
+        font-weight: 600;
+        color: $black;
+        span {
+          display: block;
+          text-transform: lowercase;
+          font-size: 15px;
+          color: $gray-subheading;
+        }
+      }
+    }
+  }
+}

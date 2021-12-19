@@ -1,26 +1,32 @@
 .team-area {
-  .section-title {
-    h4 {
-      color: $black-heading;
-    }
-    p {
-      color: $gray-subheading;
-    }
-  }
+  background-color: $second-primary;
+  top: 83px;
+  position: relative;
   .single-team {
+    background-color: $second-primary;
+    padding: 5px;
+    @include border-radius(5px);
+    box-shadow: 7px 7px 16px $shadow1, -7px -7px 16px $shadow2;
+    transition: .3s;
+    &:hover {
+      transform: translateY(-10px);
+    }
     .single-image {
+      background-color: $primary-color;
+      padding: 5px;
+      @include border-radius(5px);
       img {
         width: 100%;
       }
     }
     .team-text {
       text-align: center;
-      margin-top: 25px;
+      margin: 25px 0 25px 0;
       h4 {
         text-transform: capitalize;
         font-size: 24px;
         font-weight: 600;
-        color: $black-heading;
+        color: $black;
         line-height: 30px;
         span {
           display: block;
@@ -37,20 +43,20 @@
           display: inline-block;
           a {
             display: block;
-            color: $link-color;
             margin: 0 5px;
-            transition: 0.3s;
-            &:hover {
-              color: $link-hover;
-            }
             i {
               font-size: 12px;
-              background-color: $icon-bg;
+              color: $icon-color-white;
+              background-color: $icon-bg-green;
               height: 25px;
               width: 25px;
               line-height: 25px;
               border-radius: 50%;
               text-align: center;
+              transition: .3s;
+              &:hover {
+                background-color: $icon-bg-blue;
+              }
             }
           }
         }

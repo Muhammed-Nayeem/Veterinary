@@ -1,17 +1,12 @@
 .blog-area {
-  .section-title {
-    h4 {
-      color: $black-heading;
-    }
-    p {
-      color: $gray-subheading;
-    }
-  }
+  background-color: $second-primary;
+  top: 83px;
+  position: relative;
   .single-blog {
-    box-shadow: 4px 4px 8px $shadow;
     transition: 0.3s;
     &:hover {
       transform: translateY(-10px);
+      box-shadow: 4px 4px 8px $shadow;
     }
     .single-image {
       img {
@@ -19,12 +14,13 @@
       }
     }
     .blog-content {
-      border: 1px solid $gray-subheading;
+      background-color: $primary-color;
+      border: 1px solid $green-border;
       border-top: 0;
       padding: 25px 30px;
       &:hover {
         a {
-          color: $black-heading;
+          color: $black;
         }
       }
       &.bc {
@@ -34,26 +30,26 @@
         text-transform: capitalize;
         font-size: 24px;
         font-weight: 600;
-        color: $black-heading;
+        color: $black;
       }
       h5 {
         text-transform: uppercase;
         font-size: 13px;
-        color: $btn-primary;
+        color: $green;
         font-weight: normal;
         letter-spacing: 1px;
       }
       p {
         font-size: 18px;
-        margin: 25px 0;
+        margin: 20px 0;
+        color: $gray-subheading;
       }
       a {
         display: inline-block;
         text-transform: capitalize;
-        font-size: 20px;
-        font-weight: 600;
-        color: $btn-primary;
-        letter-spacing: 1px;
+        font-size: 18px;
+        font-weight: 400;
+        color: $green;
         transition: 0.3s;
       }
     }

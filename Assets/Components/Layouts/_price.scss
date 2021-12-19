@@ -1,8 +1,10 @@
 .price-area {
   background-color: $primary-color;
+  top: 83px;
+  position: relative;
   .single-price {
     .pet-image {
-      background-color: $white-heading;
+      background-color: $second-primary;
       img {
         width: 100%;
         padding: 8px;
@@ -12,7 +14,7 @@
       text-align: center;
       margin-top: 30px;
       h4 {
-        color: $white-heading;
+        color: $black;
         font-size: 30px;
         font-weight: 700;
         margin-bottom: 15px;
@@ -24,6 +26,7 @@
         }
       }
       .bttn {
+        padding: 10px 25px;
         @include border-radius(30px);
       }
     }

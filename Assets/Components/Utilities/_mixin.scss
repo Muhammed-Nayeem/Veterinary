@@ -1,18 +1,21 @@
 /* Button Maker Mixin */
-@mixin border-radius ($bd-radius) {
+@mixin border-radius($bd-radius) {
   border-radius: $bd-radius;
 }
 
 /* Section Maker Mixin */
 @mixin section($className) {
   .#{$className} {
+    background-color: $second-primary;
+    top: 83px;
+    position: relative;
     .about-content {
       h4 {
         text-transform: capitalize;
-        font-size: 55px;
+        font-size: 45px;
         font-weight: 700;
         color: $black-heading;
-        line-height: 65px;
+        line-height: 60px;
       }
       p {
         font-size: 20px;
@@ -23,15 +26,16 @@
         @include border-radius(3px);
       }
       .bttn-primary {
-        background-color: $btn-warning;
+        background-color: $btn-blue;
         transition: 0.3s;
         &:hover {
-          background-color: $btn-hover;
+          background-color: $btn-bg-hover;
         }
       }
     }
     .about-image {
       position: relative;
+      z-index: 1;
       &::before {
         position: absolute;
         content: "";
@@ -41,6 +45,7 @@
         width: 100%;
         background-color: $bg-overlay;
         opacity: 0.6;
+        z-index: 1;
       }
       img {
         width: 100%;
@@ -50,24 +55,26 @@
         left: 50%;
         transform: translate(-50%, -50%);
         position: absolute;
+        z-index: 2;
         a {
           display: inline-block;
-          color: $white-heading;
-          transition: 0.3s;
-          &:hover {
-            color: $btn-hover;
-          }
           i {
+            color: $icon-color-white;
             font-size: 80px;
+            transition: 0.3s;
+            &:hover {
+              color: $icon-color-hover;
+            }
           }
         }
       }
       .about-shape {
-        background-color: $primary-color;
+        background-color: $blue-shape;
         width: 200px;
         height: 180px;
-        top: 68%;
-        left: -22px;
+        top: 100%;
+        transform: translateY(-90%);
+        left: -20px;
         position: absolute;
         z-index: -1;
       }

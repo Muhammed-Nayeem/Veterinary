@@ -1,9 +1,11 @@
 .services-area {
   background-color: $primary-color;
+  top: 83px;
+  position: relative;
   .single-services {
     text-align: center;
     .service-image {
-      background-color: $white-heading;
+      background-color: $second-primary;
       img {
         width: 100%;
         padding: 6px;
@@ -14,13 +16,13 @@
       padding: 15px 20px;
       h4 {
         text-transform: capitalize;
-        color: $white-heading;
-        font-size: 30px;
+        color: $black-heading;
+        font-size: 26px;
         font-weight: 700;
       }
       p {
-        color: $white-heading;
-        font-size: 18px;
+        color: $gray-subheading;
+        font-size: 17px;
       }
     }
   }

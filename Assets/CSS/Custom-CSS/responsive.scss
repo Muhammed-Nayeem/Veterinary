@@ -1,0 +1,583 @@
+/*======================== Responsive Code ======================*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /*Banner Area*/
+  .banner-area {
+    .banner-content {
+      h2 {
+        font-size: 50px;
+        line-height: 65px;
+      }
+      p {
+        font-size: 17px;
+      }
+    }
+  }
+  /*About Area*/
+  .about-area {
+    .about-content {
+      h4 {
+        font-size: 42px;
+        line-height: 55px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+  /*Services Area*/
+  .services-area {
+    .single-services {
+      .service-text {
+        h4 {
+          font-size: 25px;
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  /*Care Area*/
+  .care-area {
+    .about-content {
+      h4 {
+        font-size: 42px;
+        line-height: 55px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+  /*Counter Area*/
+  .counter-area {
+    padding: 140px 0;
+    .single-counter {
+      i {
+        margin-bottom: 20px;
+      }
+      p {
+        margin-bottom: 10px;
+      }
+    }
+  }
+  /*Blog Area*/
+  .blog-area {
+    .single-blog {
+      .blog-content {
+        h4 {
+          font-size: 20px;
+        }
+        h5 {
+          font-size: 12px;
+        }
+        p {
+          font-size: 15px;
+        }
+        a {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  /*Footer Area*/
+  .footer-area {
+    .single-footer {
+      h4 {
+        font-size: 28px;
+      }
+      .item-list {
+        li {
+          a {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /*Banner Area*/
+  .banner-area {
+    .banner-content {
+      h2 {
+        font-size: 33px;
+        line-height: 45px;
+      }
+      p {
+        font-size: 15px;
+        line-height: 22px;
+      }
+    }
+  }
+  /*About Area*/
+  .about-area {
+    .about-content {
+      h4 {
+        font-size: 30px;
+        line-height: 40px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+  /*Services Area*/
+  .services-area {
+    .section-title {
+      h4 {
+        font-size: 38px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+    .single-services {
+      .service-text {
+        padding: 15px 10px;
+        h4 {
+          font-size: 25px;
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  /*Care Area*/
+  .care-area {
+    .about-content {
+      h4 {
+        font-size: 30px;
+        line-height: 40px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+  /*Price Area*/
+  .price-area {
+    .section-title {
+      h4 {
+        font-size: 38px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+    .single-price {
+      .price-text {
+        h4 {
+          font-size: 25px;
+        }
+        .bttn {
+          padding: 8px 20px;
+        }
+      }
+    }
+  }
+  /*Team Area*/
+  .team-area {
+    .section-title {
+      h4 {
+        font-size: 38px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+    .single-team {
+      .team-text {
+        h4 {
+          font-size: 20px;
+          line-height: 25px;
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  /*Counter Area*/
+  .counter-area {
+    padding: 140px 0;
+    .single-counter {
+      i {
+        font-size: 70px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 25px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  /*Blog Area*/
+  .blog-area {
+    .section-title {
+      h4 {
+        font-size: 38px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+    .single-blog {
+      .blog-content {
+        h4 {
+          font-size: 14px;
+        }
+        h5 {
+          font-size: 10px;
+        }
+        p {
+          font-size: 12px;
+          margin: 12px 0;
+        }
+        a {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  /*Contact Area*/
+  .contact-area {
+    .section-title {
+      h4 {
+        font-size: 38px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+  /*Footer Area*/
+  .footer-area {
+    .single-footer {
+      h4 {
+        font-size: 25px;
+      }
+      .item-list {
+        li {
+          a {
+            font-size: 15px;
+          }
+        }
+      }
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /*Banner Area*/
+  .banner-area {
+    .banner-content {
+      h2 {
+        font-size: 44px;
+        line-height: 58px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+  /*About Area*/
+  .about-area {
+    .about-content {
+      h4 {
+        font-size: 42px;
+        line-height: 55px;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+  /*Services Area*/
+  .services-area {
+    .section-title {
+      h4 {
+        font-size: 38px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+    .single-services {
+      .service-text {
+        padding: 15px 10px;
+        h4 {
+          font-size: 22px;
+        }
+        p {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  /*Care Area*/
+  .care-area {
+    .about-content {
+      h4 {
+        font-size: 42px;
+        line-height: 55px;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+  /*Price Area*/
+  .price-area {
+    .section-title {
+      h4 {
+        font-size: 38px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+    .single-price {
+      .price-text {
+        h4 {
+          font-size: 25px;
+        }
+        .bttn {
+          padding: 8px 20px;
+        }
+      }
+    }
+  }
+  /*Team Area*/
+  .team-area {
+    .section-title {
+      h4 {
+        font-size: 38px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+  /*Counter Area*/
+  .counter-area {
+    padding: 140px 0;
+    .single-counter {
+      i {
+        margin-bottom: 20px;
+      }
+      p {
+        margin-bottom: 10px;
+      }
+    }
+  }
+  /*Blog Area*/
+  .blog-area {
+    .section-title {
+      h4 {
+        font-size: 38px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+    .single-blog {
+      .blog-content {
+        h4 {
+          font-size: 16px;
+        }
+        h5 {
+          font-size: 11px;
+        }
+        p {
+          font-size: 14px;
+          margin: 12px 0;
+        }
+        a {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  /*Contact Area*/
+  .contact-area {
+    .section-title {
+      h4 {
+        font-size: 38px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  /*Header Area*/
+  .header-area {
+    .navbar {
+      .navbar-brand {
+        padding-right: 0;
+      }
+    }
+  }
+  /*Banner Area*/
+  .banner-area {
+    .banner-content {
+      text-align: center;
+      h2 {
+        font-size: 35px;
+        line-height: 50px;
+      }
+      p {
+        font-size: 16px;
+      }
+      .bttn {
+        margin-bottom: 25px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+    .ex-sm {
+      margin-bottom: 60px;
+    }
+  }
+  /*About Area*/
+  .about-area {
+    .about-content {
+      h4 {
+        font-size: 25px;
+        line-height: 38px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+    .ex-sm {
+      margin-bottom: 60px;
+    }
+  }
+  /*Services Area*/
+  .services-area {
+    .section-title {
+      h4 {
+        font-size: 35px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+    .single-services {
+      .service-text {
+        padding: 15px 10px;
+        h4 {
+          font-size: 24px;
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+    .ex-sm {
+      margin-bottom: 30px;
+    }
+  }
+  /*Care Area*/
+  .care-area {
+    .about-content {
+      h4 {
+        font-size: 25px;
+        line-height: 38px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+    .ex-sm {
+      margin-bottom: 60px;
+    }
+  }
+  /*Price Area*/
+  .price-area {
+    .section-title {
+      h4 {
+        font-size: 35px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+    .ex-sm {
+      margin-bottom: 60px;
+    }
+  }
+  /*Team Area*/
+  .team-area {
+    .section-title {
+      h4 {
+        font-size: 35px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+    .ex-sm {
+      margin-bottom: 60px;
+    }
+  }
+  /*Counter Area*/
+  .counter-area {
+    padding: 140px 0;
+    .single-counter {
+      i {
+        margin-bottom: 20px;
+      }
+      p {
+        margin-bottom: 10px;
+      }
+    }
+    .ex-sm {
+      margin-bottom: 60px;
+    }
+  }
+  /*Blog Area*/
+  .blog-area {
+    .section-title {
+      h4 {
+        font-size: 35px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+    .ex-sm {
+      margin-bottom: 60px;
+    }
+  }
+  /*Contact Area*/
+  .contact-area {
+    .section-title {
+      h4 {
+        font-size: 35px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+    .ex-sm {
+      margin-bottom: 40px;
+    }
+  }
+  /*Footer Area*/
+  .footer-area {
+    .ex-sm {
+      margin-bottom: 40px;
+    }
+  }
+}

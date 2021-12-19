@@ -15,27 +15,27 @@ img {
 .bttn {
   display: inline-block;
   text-transform: capitalize;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
-  color: $white-heading;
-  width: 152px;
+  color: $btn-color-white;
   text-align: center;
   transition: .3s;
   &.bttn-primary {
-    background-color: $btn-primary;
-    padding: 15px 18px;
+    background-color: $btn-green;
+    padding: 14px 25px;
     &:hover {
-      background-color: $btn-hover;
-      color: $white-heading;
+      background-color: $btn-bg-hover;
+      color: $btn-color-white;
     }
   }
   &.bttn-border {
-    border: 2px solid $white-heading;
-    padding: 13px 18px;
+    border: 2px solid $green-border;
+    color: $btn-color-green;
+    padding: 12px 20px;
     &:hover {
-      background-color: $btn-hover;
-      color: $white-heading;
-      border: 2px solid $btn-hover;
+      background-color: $btn-bg-hover;
+      color: $btn-color-white;
+      border: 2px solid $black-border;
     }
   }
 }

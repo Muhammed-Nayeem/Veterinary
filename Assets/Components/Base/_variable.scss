@@ -1,14 +1,47 @@
-/* Colors Variables */
-$bg-header: #daac00;
-$primary-color: #fcc302;
-$bg-overlay: #ffc814;
-$btn-primary: #00bec9;
-$btn-warning: #fcc302;
-$btn-hover: #313243;
-$black-heading: #313243;
+/*======= Themes Color =========*/
+$primary-color: #ffffff;
+$second-primary: #f2f4ff;
+
+/*======= Header & Footer Background =======*/
+$bg-header: #49ac60;
+$bg-footer: #383838;
+
+/*======= Overlay Color ========*/
+$bg-overlay: #abf3bd;
+
+/*======= Shape Colors ========*/
+$blue-shape: #7faff2;
+
+/*======= Heading & Sub-Heading Colors =======*/
+$black-heading: #383838;
 $white-heading: #ffffff;
+$gray-subheading: #5a5a5ae1;
+
+/*======= Property Colors ========*/
 $link-color: #ffffff;
-$link-hover: #313243;
-$gray-subheading: #94949A;
-$icon-bg: #daac00;
+$link-hover: #383838;
+$white: #ffffff;
+$black: #383838;
+$green: #49ac60;
+
+/*======= Button Colors =======*/
+$btn-blue: #7faff2;
+$btn-green: #49ac60;
+$btn-color-white: #ffffff;
+$btn-color-green: #49ac60;
+$btn-color-blue: #7faff2;
+$btn-bg-hover: #383838;
+$btn-color-hover: #ffffff;
+$black-border: #383838;
+$green-border: #49ac60;
+$blue-border: #7faff2;
+
+/*======= Icons & Shadow =======*/
 $shadow: #0000014b;
+$shadow1: #d5d7e0;
+$shadow2: #ffffff;
+$icon-bg-green: #49ac60;
+$icon-bg-blue: #7faff2;
+$icon-color-white: #ffffff;
+$icon-color-hover: #383838;
+$icon-color-blue: #7faff2;
